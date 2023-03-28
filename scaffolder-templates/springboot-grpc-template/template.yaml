@@ -9,7 +9,7 @@ metadata:
     - java
     - grpc
 spec:
-  owner: service@example.com
+  owner: idp@sealio.net
   type: service
 
   parameters:
@@ -50,7 +50,6 @@ spec:
           ui:field: RepoUrlPicker
           ui:options:
             allowedHosts:
-              - gitlab.sealio.net
               - github.com
 
   steps:
